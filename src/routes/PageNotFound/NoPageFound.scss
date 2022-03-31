@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables.scss';
+@import '../../assets/scss/mixins.scss';
+
+.noPage {
+  height: 100%;
+  width: 100%;
+
+  @include flex-center-center;
+  flex-direction: column;
+
+  text-align: center;
+  h1 {
+    margin-bottom: $thick-spacing;
+    font-weight: $semi-bold-weight;
+  }
+  p {
+    font-weight: $light-weight;
+  }
+}

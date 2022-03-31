@@ -1,0 +1,10 @@
+[
+  {
+    "path": "/",
+    "element": "Home"
+  },
+  {
+    "path": "*",
+    "element": "PageNotFound"
+  }
+]
