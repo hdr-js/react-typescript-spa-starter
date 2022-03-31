@@ -33,6 +33,8 @@ module.exports = {
     'default-param-last': 'off',
     'no-restricted-exports': 'off',
     'react/jsx-wrap-multilines': 'off',
+    'no-unused-vars': 'off',
+    'no-console': 'off',
 
     'prettier/prettier': ['error'],
     'react/jsx-filename-extension': ['error', { extensions: ['.ts', '.tsx'] }], // airbnb is using .jsx
